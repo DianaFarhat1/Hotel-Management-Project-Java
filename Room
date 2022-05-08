@@ -1,0 +1,39 @@
+
+abstract class Employee {
+
+	private int employeeNb;
+	private String SSN;
+	private String employeeFistName;
+	private String employeeLastName;
+	private EmergencyContact emergencyContact;
+	private int mobileNumber;
+	private double salary;
+	
+	
+	public int getEmployeeNb() {
+		return employeeNb;
+	}
+	public void setEmployeeNb(int employeeNb) {
+		this.employeeNb = employeeNb;
+	}
+	public String getEmployeeFistName() {
+		return employeeFistName;
+	}
+	public void setEmployeeFistName(String employeeFistName) {
+		this.employeeFistName = employeeFistName;
+	}
+	public String getEmployeeLastName() {
+		return employeeLastName;
+	}
+	public void setEmployeeLastName(String employeeLastName) {
+		this.employeeLastName = employeeLastName;
+	}
+	
+	public String getEmployeeName() {
+		return employeeFistName+ " "+ employeeLastName;
+	}
+	
+	
+
+   
+	
